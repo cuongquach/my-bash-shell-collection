@@ -1,5 +1,9 @@
 #!/bin/bash
+# Author: Quach Chi Cuong
+# Email: cuongquach.community@gmail.com
+# Blog: https://cuongquach.com/
 
+# Global variable
 OS_DISTRO="unknown"
 OS_DISTRO_VER="unknown"
 
@@ -25,6 +29,7 @@ elif [[ -f /etc/debian_version ]]; then
     fi
 fi
 
+# Print result
 echo $OS_DISTRO
 echo $OS_DISTRO_VER
 
